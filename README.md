@@ -20,7 +20,7 @@ The company is looking at prospective properties to buy to enter the market. The
 ## Conclusions
 These are the final features that should be selected for predicting the price of house, hence the equation:
 ```
-Log(Y) = C + 1.305615(x1) + 1.172931(x2) + 1.088577(x3) + 1.069399(x4) + 0.576761(x5) + 0.355093(x6) + 0.350419(x7) + 0.334908(x8) + 0.327525(x9) + 0.321742(x10) + Error term(RSS + alpha * (sum of absolute value of coefficients))
+Log(Y) = C + 0.391359(x1) + 0.359583(x2) + 0.345160(x3) + 0.318507(x4) + 0.218726(x5) + 0.201420(x6) + 0.197847(x7) + 0.181017(x8) + 0.175515(x9) + 0.114792(x10) + Error term(RSS + alpha * (sum of absolute value of coefficients))
 ```
 > Inference: Keep a check on these predictors affecting the price of the house.
 > + The higher values of positive coeeficients suggest a high sale value.
